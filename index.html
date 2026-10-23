@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Technical guide demonstrating WCAG 2.1 accessibility and Core SEO best practices.">
+  <meta name="keywords" content="Accessibility, a11y, SEO, HTML5, Semantic Web">
+  <meta name="author" content="Sajal Mishra">
+  <title>Experiment 4 - Accessible & SEO-Optimized Web Design</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="py-5">
+  <!-- Accessibility Skip Link -->
+  <a href="#mainContent" class="skip-link">Skip to main content</a>
+
+  <div class="container" style="max-width: 860px;">
+    <!-- Hero Banner -->
+    <header class="hero-section mb-4">
+      <span class="badge bg-light text-primary mb-2">Experiment 4</span>
+      <h1 class="h2 mb-2">Modern Accessibility & Semantic SEO</h1>
+      <p class="text-white opacity-90 mb-0">Building inclusive web experiences adhering to WCAG 2.1 AA standards and Google crawler indexing guidelines.</p>
+    </header>
+
+    <main id="mainContent">
+      <div class="row g-3 mb-4">
+        <!-- Pillar 1: Semantic Architecture -->
+        <div class="col-md-6">
+          <article class="info-card p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h2 class="h5 text-primary mb-0">Semantic Structure</h2>
+              <span class="tag-badge">SEO</span>
+            </div>
+            <p class="text-muted small">Using meaningful landmarks to convey page structure to search crawlers.</p>
+            <ul class="text-secondary small mb-0 ps-3">
+              <li>Distinct <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> landmarks.</li>
+              <li>Strict chronological heading hierarchy (h1 &rarr; h2 &rarr; h3).</li>
+              <li>Descriptive meta descriptions and structured OpenGraph tags.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Pillar 2: Inclusive Accessibility -->
+        <div class="col-md-6">
+          <article class="info-card p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h2 class="h5 text-primary mb-0">Accessible UX (a11y)</h2>
+              <span class="tag-badge">WCAG 2.1</span>
+            </div>
+            <p class="text-muted small">Ensuring equal usability across screen readers and keyboard navigation.</p>
+            <ul class="text-secondary small mb-0 ps-3">
+              <li>High-contrast text complying with 4.5:1 ratio checks.</li>
+              <li>Keyboard-accessible skip link for rapid content skipping.</li>
+              <li>Mandatory descriptive <code>alt</code> attributes on all informative imagery.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <!-- Quick Checklist Card -->
+      <section class="info-card p-4 mb-4">
+        <h3 class="h5 text-dark mb-3">Core Web Vitals & a11y Checklist</h3>
+        <div class="table-responsive">
+          <table class="table table-bordered mb-0 small">
+            <thead class="table-light">
+              <tr>
+                <th>Principle</th>
+                <th>Implementation Rule</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Perceivable</td>
+                <td>Text alternatives provided for non-text content</td>
+                <td><span class="badge bg-success">Passed</span></td>
+              </tr>
+              <tr>
+                <td>Operable</td>
+                <td>All interactive elements reachable via keyboard Tab key</td>
+                <td><span class="badge bg-success">Passed</span></td>
+              </tr>
+              <tr>
+                <td>Understandable</td>
+                <td>Clear language tags (<code>lang="en"</code>) and structured labels</td>
+                <td><span class="badge bg-success">Passed</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center text-muted small">
+      <p>&copy; 2026 Sajal Mishra &bull; JSS University, Noida</p>
+    </footer>
+  </div>
+</body>
+</html>
